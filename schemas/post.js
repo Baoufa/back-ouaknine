@@ -69,8 +69,7 @@ export default {
           options: {
             source: 'contentfr.titlefr',
             maxLength: 96,
-          },
-          validation: Rule => [Rule.required().error('Please click generate')],
+          }
         },
         {
           name: 'bodyfr',
@@ -96,8 +95,7 @@ export default {
           options: {
             source: 'contenten.titleen',
             maxLength: 96,
-          },
-          validation: Rule => [Rule.required().error('Please click generate')],
+          }
         },
         {
           name: 'bodyen',
